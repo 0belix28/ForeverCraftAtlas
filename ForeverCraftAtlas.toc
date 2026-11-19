@@ -1,0 +1,25 @@
+## Interface: 16001
+## Title: ForeverCraftAtlas
+## Notes: Toutes les recettes des métiers, apprises ou non : comment les apprendre, coût et bénéfice (offre la moins chère relevée en jeu, sinon ForeverExchange), points de compétence ; favoris et wishlist (achats à l'hôtel des ventes et chez les marchands). Aucune dépendance. /fca
+## Notes-frFR: Toutes les recettes des métiers, apprises ou non : comment les apprendre, coût et bénéfice (offre la moins chère relevée en jeu, sinon ForeverExchange), points de compétence ; favoris et wishlist (achats à l'hôtel des ventes et chez les marchands). Aucune dépendance. /fca
+## Version: 0.1.1
+## IconTexture: Interface\Icons\INV_Scroll_04
+## OptionalDeps: ForeverExchange
+## SavedVariables: ForeverCraftAtlasDB
+## AddonCompartmentFunc: ForeverCraftAtlas_OnCompartmentClick
+## AddonCompartmentFuncOnEnter: ForeverCraftAtlas_OnCompartmentEnter
+## AddonCompartmentFuncOnLeave: ForeverCraftAtlas_OnCompartmentLeave
+
+Libs\SettingsKit.lua
+Libs\Prices.lua
+Data.lua
+Core.lua
+Scan.lua
+Trainer.lua
+Recipes.lua
+Route.lua
+Wishlist.lua
+Window.lua
+Purchase.lua
+Minimap.lua
+Settings.lua
